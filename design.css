@@ -68,7 +68,7 @@ section .start a{
 section .start #starttext{
   display: flex;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
