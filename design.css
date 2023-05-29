@@ -430,6 +430,36 @@ header .search
 } */
 @media (max-width: 700px)
 {
+    section .start{
+  
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60vh;
+}
+      section .start a{
+    /* margin-left: 60px; */
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    text-decoration: none;
+    color: aqua;
+    font-size: 40px;
+    display: flex;
+  }
+  section .start #starttext{
+    display: flex;
+    font-size: 15px;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: aqua;
+  }
+  .neg{
+    font-size: 2em;
+  }
   section:nth-child(1){
     font-size: 15px;
   }
