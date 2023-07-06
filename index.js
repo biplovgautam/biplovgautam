@@ -1,4 +1,4 @@
-var header = document.getElementById("header1");
+var header = document.querySelector('.header');
 
 var navbarHeight = header.offsetHeight;
 var lastScrollTop = 0;
