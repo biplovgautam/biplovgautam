@@ -120,13 +120,6 @@ section:nth-child(1){
   background-color: #333;
 }
 section:nth-child(2){
-  color: #333;
-}
-section:nth-child(3){
-  color: #fff;
-  background-color: #333;
-}
-section:nth-child(5){
   color: #fff;
   background-color: #333;
 }
@@ -312,10 +305,10 @@ header{
 {
     color: #333;
     text-decoration: none;
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.09em;
 }
 .group{
     display: flex;
