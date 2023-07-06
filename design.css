@@ -40,6 +40,14 @@
 ::-webkit-scrollbar-thumb:active {
   background-color: #333;
 }
+#particles-js{
+  margin-top: 50PX;
+  height: 100%;
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+
+}
 section{
   min-height: 100vh;
   justify-content: center;
@@ -139,10 +147,6 @@ section .cards{
   display: flex;
   border: 40px #333;
   border-radius: 50px;
-}
-section .math12{
-  background: url(math1.png);
-  
 }
 section .textcards{
 
