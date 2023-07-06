@@ -74,6 +74,7 @@ section .start a{
   display: flex;
 }
 section .start #starttext{
+    z-index: 1000;
   display: flex;
   font-size: 20px;
   font-weight: 400;
