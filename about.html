@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="icon" href="logo1.png" type="image/x-icon">
+      <link rel="stylesheet" href="design.css">
+      <meta name="viewport" content="width=device-width", initial-scale="1.0">
+      <meta charset="utf-8">
+      <title>Biplov Gautam</title>
+      </head>
+  </body>
+<section class="team">
+    <h1>About Me</h1>
+    <div class="container">
+      <div class="member">
+        <img class="abouimg" src="bip.png" alt="Team Member 1">
+        <h2>Biplov Gautam</h2>
+        <h3>Developer</h3>
+        <p>I am student who recently finished class 12 board examination. And this is the website that i built in my free as a project as it will help me to gain some skill in web development.</p>
+      </div>
+    </div>
+  </section>
+  <header class="header1" id="header1">
+    <script scr="index.js" ></script>
+    <a href="index.html" class="neg">Biplov</a>
+    <div class="group">
+      <ul class="navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="https://www.instagram.com/biplov__gautam/">Instagram</a></li>
+        <li><a href="https://www.facebook.com/biplov.gautam.31">Facebook</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <div class="search">
+        <span class="icon">
+          <ion-icon name="search-outline" class="searchbtn"></ion-icon>
+          <ion-icon name="close-outline" class="closebtn"></ion-icon>
+        </span>
+      </div>
+      <ion-icon name="menu-outline" class="menulog"></ion-icon>
+    </div>
+    <div class="searchbox">
+      <input type="text" placeholder="search here...">
+    </div>
+  </header>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script>
+    let searchbtn = document.querySelector('.searchbtn');
+    let closebtn = document.querySelector('.closebtn');
+    let searchbox = document.querySelector('.searchbox');
+    let navigation = document.querySelector('.navigation');
+    let menulog = document.querySelector('.menulog');
+    let header = document.querySelector('header')
+    searchbtn.onclick = function(){
+      closebtn.classList.add('active');
+      searchbox.classList.add('active');
+      searchbtn.classList.add('active');
+      menulog.classList.add('hide');
+    }
+    closebtn.onclick = function(){
+      closebtn.classList.remove('active');
+      searchbox.classList.remove('active');
+      searchbtn.classList.remove('active');
+      menulog.classList.remove('hide')
+    }
+    menulog.onclick = function(){
+      header.classList.toggle('open');
+      searchbox.classList.remove('active');
+      searchbtn.classList.remove('active');
+      menulog.classList.remove('hide')
+    }
+    
+  </script>
+  <footer>
+    <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+    </div>
+    <ul class="social">
+      <li><a href="https://www.facebook.com/biplov.gautam.31"><ion-icon name="logo-facebook"></ion-icon></a></li>
+      <li><a href="https://www.youtube.com/@biplovgautam5978"><ion-icon name="logo-youtube"></ion-icon></a></li>
+      <li><a href="https://www.instagram.com/biplov__gautam/"><ion-icon name="logo-instagram"></ion-icon></a></li>
+      <li><a href="mailto:madhavbiplov@gmail.com"><ion-icon name="mail-outline"></ion-icon></a></li>
+    </ul>
+    <ul class="footmenu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#getstart">Notice</a></li>
+      <li><a href="#">services</a></li>
+      <li><a href="#">Nothing</a></li>
+    </ul>
+    <p>&copy;2023 Biplov | All Rights Reserved.</p>
+  </footer>
+
+  </body>
+</html>
