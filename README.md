@@ -1,11 +1,11 @@
 
-# Hi there! 👋  
+<h2> Hi, I'm <a href="https://biplovgautam.com.np/">Trishan Wagle</a><img src="https://raw.githubusercontent.com/rubiin/rubiin/master/pikahello.gif" width="40px" height="40px"></h2> 👋  
 I'm **Biplov Gautam**, a dedicated Computer Science student with a focus on **AI/ML**. I enjoy building projects that blend creativity with technology and continuously strive to enhance my skill set.  
 
 ---
 
 ## 🌟 About Me:
-- 🧠 **Learning:** Machine learning.  
+- 🧠 **Learning:** Machine learning, Neural Network, Deep Learning.  
 - 🤖 **Current Focus:** AI/ML projects, including NLP and prediction models.  
 - 🌍 **Ambition:** To create impactful web apps powered by AI.  
 - 💡 **Goal:** Building a product on **AI**.  
