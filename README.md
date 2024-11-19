@@ -1,5 +1,6 @@
 
 <h2> Hi, This is me <a href="https://biplovgautam.com.np/">Biplov Gautam</a> 👋</h2>  <br> 
+---
 I'm **Biplov Gautam**, a dedicated Computer Science student with a focus on **AI/ML**. I enjoy building projects that blend creativity with technology and continuously strive to enhance my skill set.  
 
 ---
