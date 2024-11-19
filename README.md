@@ -33,15 +33,40 @@ I'm **Biplov Gautam**, a dedicated Computer Science student with a focus on **AI
 
 ---
 
+🛠️ **Languages & Tools I Use:**
+
+![Python](https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/tensorflow-%23FF6F00.svg?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23F37626.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-%2300000f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+
+<br/>
+---
 ## 📈 GitHub Stats:
 ![Biplov's GitHub stats](https://github-readme-stats.vercel.app/api?username=biplovgautam&show_icons=true&theme=radical)  
 
 ---
 
-## 📬 Connect With Me:
-- 🌐 [Portfolio Website](https://biplovgautam.com.np)  
-- 💼 [LinkedIn](https://www.linkedin.com/in/biplovgautam/)   
-- 📧 Email: madhavbiplov@gmaiil.com 
+🔗 **Connect with me**
+
+<p align="left">
+    <a href="https://www.linkedin.com/in/biplovgautam" target="_blank">
+      <img align="center" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/>
+    </a>
+    <a href="https://medium.com/@madhavbiplov" target="_blank">
+      <img align="center" src="https://img.shields.io/badge/medium-%2312100E.svg?style=for-the-badge&logo=medium&logoColor=white"/>
+    </a>
+</p>
 
 Feel free to explore my repositories, suggest improvements, or collaborate on exciting projects! 😊  
 
