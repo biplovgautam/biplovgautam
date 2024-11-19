@@ -5,7 +5,7 @@ A Computer Science student with a passion for AI/ML. I am actively working on va
 
 ## 🌟 About Me:
 - 🧠 **Learning:** Machine Learning, Deep Learning, Neural Networks, Pytorch, TensorFlow.
-- 🤖 **Current Focus:** Trying and testing all tools and technologies & different AI/ML projects, including **NLP**, **LLMS** and **AI**-based web applications.
+- 🤖 **Current Focus:** Trying and testing all tools and technologies & building different AI/ML projects, including **NLP**, **LLMS** and **AI**-based web applications.
 - 🌍 **Ambition:** To build impactful web apps powered by AI and solve real-world problems.
 - 💡 **Goal:** Mastering **AI** technologies and creating innovative **AI-powered products**.
 
