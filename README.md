@@ -1,15 +1,15 @@
 
 <h2> Hi, This is me <a href="https://biplovgautam.com.np/">Biplov Gautam</a> 👋</h2>
 ---
-I'm ###Biplov Gautam, a dedicated Computer Science student with a focus on ###AI/ML. I enjoy building projects that blend creativity with technology and continuously strive to enhance my skill set.  
+I'm **Biplov Gautam**, a Computer Science student with a passion for **AI/ML** and web development. I am actively working on various projects, from AI-driven web apps to machine learning models, and continuously enhancing my skills in **Django**, **TensorFlow**, **React**, and more.  
 
 ---
 
 ## 🌟 About Me:
-- 🧠 **Learning:** Machine learning, Neural Network, Deep Learning.  
-- 🤖 **Current Focus:** AI/ML projects, including NLP and prediction models.  
-- 🌍 **Ambition:** To create impactful web apps powered by AI.  
-- 💡 **Goal:** Building a product on **AI**.  
+- 🧠 **Learning:** Machine Learning, Deep Learning, Neural Networks, Django, TensorFlow.
+- 🤖 **Current Focus:** AI/ML projects, including **NLP**, **obesity prediction models**, and AI-based web applications.
+- 🌍 **Ambition:** To build impactful web apps powered by AI and solve real-world problems.
+- 💡 **Goal:** Mastering **AI** technologies and creating innovative **AI-powered products**.
 
 ---
 
