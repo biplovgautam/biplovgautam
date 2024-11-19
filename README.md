@@ -1,21 +1,21 @@
 
 # Hi there! 👋  
-I'm **Biplov Gautam**, a dedicated Computer Science student with a focus on **AI/ML** and **web development**. I enjoy building projects that blend creativity with technology and continuously strive to enhance my skill set.  
+I'm **Biplov Gautam**, a dedicated Computer Science student with a focus on **AI/ML**. I enjoy building projects that blend creativity with technology and continuously strive to enhance my skill set.  
 
 ---
 
 ## 🌟 About Me:
-- 🧠 **Learning:** Machine learning, Django, and TensorFlow.  
+- 🧠 **Learning:** Machine learning.  
 - 🤖 **Current Focus:** AI/ML projects, including NLP and prediction models.  
 - 🌍 **Ambition:** To create impactful web apps powered by AI.  
-- 💡 **Goal:** Building a product combining **AI** and **responsive web design**.  
+- 💡 **Goal:** Building a product on **AI**.  
 
 ---
 
 ## 💻 Tech Stack:
 - **Languages:** Python, Java, JavaScript  
-- **Frameworks:** Django, React, Bootstrap  
-- **AI Tools:** TensorFlow, NumPy, Pandas, Scikit-learn  
+- **Frameworks:** Django, React, Bootstrap 
+- **AI Tools:** TensorFlow, NumPy, Pandas, Scikit-learn, matplotlib  
 
 ---
 
@@ -39,9 +39,9 @@ I'm **Biplov Gautam**, a dedicated Computer Science student with a focus on **AI
 ---
 
 ## 📬 Connect With Me:
-- 🌐 [Portfolio Website](#) *(Add if available)*  
-- 💼 [LinkedIn](#) *(Add your LinkedIn profile)*  
-- 📧 Email: biplov.gautam@example.com *(Use your email)*  
+- 🌐 [Portfolio Website](https://biplovgautam.com.np)  
+- 💼 [LinkedIn](https://www.linkedin.com/in/biplovgautam/)   
+- 📧 Email: madhavbiplov@gmaiil.com 
 
 Feel free to explore my repositories, suggest improvements, or collaborate on exciting projects! 😊  
 
