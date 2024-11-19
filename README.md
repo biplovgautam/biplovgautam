@@ -2,8 +2,8 @@
 <h2> Hi, This is me <a href="https://biplovgautam.com.np/">Biplov Gautam</a> 👋</h2>
 A Computer Science student with a passion for AI/ML and web development. I am actively working on various projects, from AI-driven web apps to machine learning models, and continuously enhancing my skills in ML & Data Science.
 
-<br/>
-
+</br>
+</br>
 ## 🌟 About Me:
 - 🧠 **Learning:** Machine Learning, Deep Learning, Neural Networks, Pytorch, TensorFlow.
 - 🤖 **Current Focus:** AI/ML projects, including **NLP**, **obesity prediction models**, and AI-based web applications.
