@@ -1,7 +1,8 @@
 
-<h2> Hi, This is me <a href="https://biplovgautam.com.np/">Biplov Gautam</a> 👋</h2> </br>
-A Computer Science student with a passion for **AI/ML** and web development. I am actively working on various projects, from AI-driven web apps to machine learning models, and continuously enhancing my skills in **Django**, **TensorFlow**, **React**, and more.  
+<h2> Hi, This is me <a href="https://biplovgautam.com.np/">Biplov Gautam</a> 👋</h2>
+A Computer Science student with a passion for AI/ML and web development. I am actively working on various projects, from AI-driven web apps to machine learning models, and continuously enhancing my skills in ML & Data Science.
 
+<br/>
 ---
 
 ## 🌟 About Me:
