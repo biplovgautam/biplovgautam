@@ -1,6 +1,3 @@
-Based on your previous conversations and the review of your GitHub profile, here’s an updated and personalized `README.md` for your profile:
-
----
 
 # Hi there! 👋  
 I'm **Biplov Gautam**, a dedicated Computer Science student with a focus on **AI/ML** and **web development**. I enjoy building projects that blend creativity with technology and continuously strive to enhance my skill set.  
