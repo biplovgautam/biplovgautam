@@ -3,7 +3,6 @@
 A Computer Science student with a passion for AI/ML and web development. I am actively working on various projects, from AI-driven web apps to machine learning models, and continuously enhancing my skills in ML & Data Science.
 
 <br/>
----
 
 ## 🌟 About Me:
 - 🧠 **Learning:** Machine Learning, Deep Learning, Neural Networks, Pytorch, TensorFlow.
