@@ -1,5 +1,5 @@
 
-<h2> Hi, I'm <a href="https://biplovgautam.com.np/">Trishan Wagle</a><img src="https://raw.githubusercontent.com/rubiin/rubiin/master/pikahello.gif" width="40px" height="40px"></h2> 👋  
+<h2> Hi, I'm <a href="https://biplovgautam.com.np/">Biplov Gautam</a> 👋</h2>   
 I'm **Biplov Gautam**, a dedicated Computer Science student with a focus on **AI/ML**. I enjoy building projects that blend creativity with technology and continuously strive to enhance my skill set.  
 
 ---
