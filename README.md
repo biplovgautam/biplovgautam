@@ -62,7 +62,7 @@ A Computer Science student with a passion for AI/ML and web development. I am ac
       <img align="center" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/>
     </a>
     <a href="https://medium.com/@madhavbiplov" target="_blank">
-      <img align="center" src="https://img.shields.io/badge/medium-%2312100E.svg?style=for-the-badge&logo=medium&logoColor=white"/>
+      <img align="center" src="https://img.shields.io/badge/medium-%23FFFFFF.svg?style=for-the-badge&logo=medium&logoColor=%23212121"/>
     </a>
 </p>
 
