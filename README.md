@@ -1,5 +1,5 @@
 
-<h2> Hi, This is me <a href="https://biplovgautam.com.np/">Biplov Gautam</a> 👋</h2>
+<h2> Hi, This is me <a href="https://biplovgautam.com.np/" target="_blank">Biplov Gautam</a> 👋</h2>
 A Computer Science student with a passion for AI/ML. I am actively working on various projects, from AI-driven web apps to machine learning models, and continuously enhancing my skills in ML & Data Science.
 
 
