@@ -1,12 +1,11 @@
 
 <h2> Hi, This is me <a href="https://biplovgautam.com.np/">Biplov Gautam</a> 👋</h2>
----
-I'm **Biplov Gautam**, a Computer Science student with a passion for **AI/ML** and web development. I am actively working on various projects, from AI-driven web apps to machine learning models, and continuously enhancing my skills in **Django**, **TensorFlow**, **React**, and more.  
+### I'm **Biplov Gautam**, a Computer Science student with a passion for **AI/ML** and web development. I am actively working on various projects, from AI-driven web apps to machine learning models, and continuously enhancing my skills in **Django**, **TensorFlow**, **React**, and more.  
 
 ---
 
 ## 🌟 About Me:
-- 🧠 **Learning:** Machine Learning, Deep Learning, Neural Networks, Django, TensorFlow.
+- 🧠 **Learning:** Machine Learning, Deep Learning, Neural Networks, Pytorch, TensorFlow.
 - 🤖 **Current Focus:** AI/ML projects, including **NLP**, **obesity prediction models**, and AI-based web applications.
 - 🌍 **Ambition:** To build impactful web apps powered by AI and solve real-world problems.
 - 💡 **Goal:** Mastering **AI** technologies and creating innovative **AI-powered products**.
@@ -30,6 +29,8 @@ I'm **Biplov Gautam**, a Computer Science student with a passion for **AI/ML** a
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23F37626.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/matplotlib-%23EE4C2C.svg?style=for-the-badge&logo=matplotlib&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/scikit_learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![PyTorch](https://img.shields.io/badge/pytorch-%23EE4C2C.svg?style=for-the-badge&logo=pytorch&logoColor=white)
+
 
 - **Other Tools:** ![Postman](https://img.shields.io/badge/postman-%23FF6C37.svg?style=for-the-badge&logo=postman&logoColor=white) 
 ![MySQL](https://img.shields.io/badge/mysql-%2300000f.svg?style=for-the-badge&logo=mysql&logoColor=white)
