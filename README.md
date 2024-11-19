@@ -70,7 +70,6 @@ Feel free to explore my repositories, suggest improvements, or collaborate on ex
 
 ---
 
-Let me know if you’d like any changes or additions!
 <!--
 **biplovgautam/biplovgautam** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
