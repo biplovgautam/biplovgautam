@@ -41,7 +41,7 @@ A Computer Science student with a passion for AI/ML. I am actively working on va
 
   <!-- Left side: Top Languages card -->
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=biplovgautam&layout=compact&theme=radical&card_width=500" alt="Top Languages">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=biplovgautam&layout=compact&theme=radical&card_width=400" alt="Top Languages">
   </a>
 
   <!-- Right side: Language badges -->
@@ -49,10 +49,10 @@ A Computer Science student with a passion for AI/ML. I am actively working on va
     <img src="https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python">
     <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
     <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+    <img src="https://img.shields.io/badge/shell-%23121011.svg?style=for-the-badge&logo=gnubash&logoColor=white" alt="Shell">
     <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white" alt="Java">
     <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript">
     <img src="https://img.shields.io/badge/jupyter-%23F37626.svg?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter">
-    <img src="https://img.shields.io/badge/shell-%23121011.svg?style=for-the-badge&logo=gnubash&logoColor=white" alt="Shell">
   </div>
 
 </div>
