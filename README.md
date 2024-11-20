@@ -37,7 +37,7 @@ A Computer Science student with a passion for AI/ML. I am actively working on va
 ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) 
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 
-<div style="display: flex; justify-content: center; width: 100%;">
+<div style="display: flex; justify-content: space-around; width: 100%;">
 
   <!-- Left side: Top Languages card -->
   <a href="https://github.com/anuraghazra/github-readme-stats">
@@ -45,14 +45,14 @@ A Computer Science student with a passion for AI/ML. I am actively working on va
   </a>
 
   <!-- Right side: Language badges -->
-  <div style="display: flex; flex-direction: row; align-items: flex-end; margin-left: 20px;">
+  <div style="display: flex; flex-direction: column; align-items: flex-end; margin-left: 20px;">
+    <img src="https://img.shields.io/badge/jupyter-%23F37626.svg?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter">
     <img src="https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-    <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+    <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript">
     <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+    <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
     <img src="https://img.shields.io/badge/shell-%23121011.svg?style=for-the-badge&logo=gnubash&logoColor=white" alt="Shell">
     <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white" alt="Java">
-    <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript">
-    <img src="https://img.shields.io/badge/jupyter-%23F37626.svg?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter">
   </div>
 
 </div>
