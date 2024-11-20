@@ -36,6 +36,8 @@ A Computer Science student with a passion for AI/ML. I am actively working on va
 ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) 
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=biplovgautam&layout=compact&theme=radical&card_width=500)](https://github.com/anuraghazra/github-readme-stats)
+
 
 
 ---
@@ -68,7 +70,6 @@ A Computer Science student with a passion for AI/ML. I am actively working on va
 
 Feel free to explore my repositories, suggest improvements, or collaborate on exciting projects! 😊  
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=biplovgautam&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 
 
 ---
