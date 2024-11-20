@@ -68,6 +68,9 @@ A Computer Science student with a passion for AI/ML. I am actively working on va
 
 Feel free to explore my repositories, suggest improvements, or collaborate on exciting projects! 😊  
 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=biplovgautam&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+
+
 ---
 
 <!--
