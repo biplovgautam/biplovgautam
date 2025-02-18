@@ -71,7 +71,7 @@ A Computer Science student with a passion for AI/ML. I am actively working on va
 
 ## 📚 What I’m Exploring:
 - **Machine Learning Models:** Improving classification and prediction accuracy.  
-- **Frontend Development:** Creating responsive and dynamic UIs with Bootstrap and React.  
+- **Fullstack Development:** Creating responsive and dynamic UIs with Bootstrap and React.  
 - **Deployment Skills:** Running full-stack apps locally and on the cloud.  
 
 ---
