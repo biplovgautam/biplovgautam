@@ -40,6 +40,7 @@ Currently working on <b>RAG pipelines</b>, <b>vector databases</b>, and building
 
 
 ## 🔥 Highlighted Projects:
+- 📱 [**JawafAi**](https://github.com/biplovgautam/jawafai) - Your AI Wingman for Everyday Reply.
 - 😐 [**Financial Sentiment Analysis**](https://github.com/biplovgautam/sentiment-analysis) - Financial text sentiment classification using balanced Multinomial Naive Bayes.
 - ⚡ **n8n Agent for Healthcare Data Mapping** – Automated workflows with **n8n** for healthcare data layouts.  
 - 🍯 [**Laxmi Honey Industry E-commerce**](https://laxmibeekeeping.com.np) – Responsive web app built with **React + Vite + TailwindCSS**.  
