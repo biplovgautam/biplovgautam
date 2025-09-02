@@ -40,12 +40,13 @@ Currently working on <b>RAG pipelines</b>, <b>vector databases</b>, and building
 
 
 ## 🔥 Highlighted Projects:
+- 😐 [**Financial Sentiment Analysis**](https://github.com/biplovgautam/sentiment-analysis) - Financial text sentiment classification using balanced Multinomial Naive Bayes.
 - ⚡ **n8n Agent for Healthcare Data Mapping** – Automated workflows with **n8n** for healthcare data layouts.  
 - 🍯 [**Laxmi Honey Industry E-commerce**](https://laxmibeekeeping.com.np) – Responsive web app built with **React + Vite + TailwindCSS**.  
 - 💼 [**Lanceraa Freelancing Platform**](https://lanceraa.biplovgautam.com.np) *(Under Construction)* – **FastAPI backend + Next.js frontend**.  
 - 🎓 [**BiLearnHub**](https://bilearnhub.biplovgautam.com.np) *(Open Source)* – Teachers create courses & students earn certifications.  
 - 🏥 **Obesity Prediction Model** – Random Forest model for weight classification.  
-- 📹 **YouTube Summarizer** – AI-powered tool for concise video summaries.  
+- 📹 [**YouTube Summarizer**](https://github.com/biplovgautam/summarizer) – AI-powered tool for concise video summaries.  
 
 
 ##  Currently Exploring:
