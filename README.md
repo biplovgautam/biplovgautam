@@ -5,7 +5,7 @@
 
 
 <p >
-It's me <a href ="https://www.biplovgautam.com.np" target="_blank">BIplov Gautam<a/> a <b>Computer Science student</b> deeply focused on <b>Artificial Intelligence</b>, <b>Machine Learning</b>, <b>Computer vision</b> and <b>Large Language Models (LLMs)</b>.  
+It's me <a href ="https://www.linkedin.com/in/biplovgautam/" target="_blank">BIplov Gautam<a/> a <b>Computer Science student</b> deeply focused on <b>Artificial Intelligence</b>, <b>Machine Learning</b>, <b>Computer vision</b> and <b>Large Language Models (LLMs)</b>.  
 Currently working on <b>RAG pipelines</b>, <b>vector databases</b>, and building <b>AI-driven web apps</b> while sharpening software engineering & project management skills.
 </p>
 
