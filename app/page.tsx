@@ -9,7 +9,7 @@ const highlights = [
   },
   {
     title: "ML Research",
-    detail: "Computer vision + multimodal experimentation",
+    detail: "Sentiment Analysis, Computer vision + multimodal experimentation",
   },
   {
     title: "Full-stack Impact",
@@ -63,7 +63,7 @@ export default function Home() {
               className="h-2.5 w-2.5 rounded-full"
               style={{ backgroundColor: accent }}
             />
-            <p className="tracking-tight">AI/ML student crafting human-first products</p>
+            <p className="tracking-tight">AI/ML student crafting human-centric products</p>
           </div>
 
           <div className="space-y-6">
@@ -72,7 +72,7 @@ export default function Home() {
                 Biplov Gautam
               </p>
               <h1 className="text-4xl font-semibold leading-tight text-white sm:text-5xl lg:text-6xl">
-                AI systems that feel like collaborators—not tools.
+                AI systems that feels like friends—not tools.
               </h1>
             </div>
             <p className="max-w-2xl text-lg leading-relaxed text-white/70">
@@ -86,20 +86,6 @@ export default function Home() {
               that feel like true collaborators. If you&apos;re working on innovative AI or
               automation projects, let&apos;s connect and exchange ideas!
             </p>
-            <ul className="space-y-3 text-white/70">
-              <li>
-                <span className="text-white" style={{ color: accent }}>
-                  JawafAI ·
-                </span>{" "}
-                Context-based Android messenger that mirrors your tone across inboxes.
-              </li>
-              <li>
-                <span className="text-white" style={{ color: accent }}>
-                  BiLearnHub ·
-                </span>{" "}
-                GenAI learning platform (AsianHack 2025) powered by Python + Pinecone for precise answers.
-              </li>
-            </ul>
             <blockquote className="text-base italic text-white/60">
               “The true sign of intelligence is not knowledge but imagination.” — Albert Einstein
             </blockquote>
@@ -173,7 +159,7 @@ export default function Home() {
                         Building AI copilots & evaluators
                       </p>
                       <p className="text-sm text-white/60">
-                        LangChain · Pinecone · n8n · FastAPI
+                        FastAPI · Pinecone · LangChain · n8n
                       </p>
                     </div>
                     <span
