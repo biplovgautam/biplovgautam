@@ -23,8 +23,8 @@ Currently working on <b>RAG pipelines</b>, <b>vector databases</b>, and building
       I build human-first AI copilots, retrieval layers, and full-stack experiences that make intelligent systems feel like collaborators (not tools).
     </p>
     <a href="mailto:contact@biplovgautam.com.np"><img src="https://img.shields.io/badge/Say%20Hello-18cb96?style=for-the-badge&logo=gmail&logoColor=050505" /></a>
-    <a href="https://www.linkedin.com/in/biplovgautam" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0a0a0a?style=for-the-badge&logo=linkedin&logoColor=18cb96" /></a>
-    <a href="https://mindshipping.tech/biplovgautam" target="_blank"><img src="https://img.shields.io/badge/Mindshipping-0a0a0a?style=for-the-badge&logo=monzo&logoColor=18cb96" /></a>
+    <a href="https://www.linkedin.com/in/biplovgautam" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+    <a href="https://mindshipping.tech/biplovgautam" target="_blank"><img src="./public/mindshippinglogo.png" height="28" alt="Mindshipping" /></a>
     <a href="https://madhavbiplov.medium.com" target="_blank"><img src="https://img.shields.io/badge/Medium-0a0a0a?style=for-the-badge&logo=medium&logoColor=18cb96" /></a>
     <a href="https://biplovgautam.com.np" target="_blank"><img src="https://img.shields.io/badge/Portfolio-18cb96?style=for-the-badge&logo=firefox&logoColor=050505" /></a>
   </div>
@@ -43,7 +43,7 @@ Currently working on <b>RAG pipelines</b>, <b>vector databases</b>, and building
     <tr>
       <td width="33%">
         <strong>JawafAI</strong>
-        <br/>Context-aware Android messaging companion built with React Native + LangChain.
+        <br/>Context-aware Android messaging companion built with Kotlin, Firebase & Groq LLM.
         <br/><a href="https://github.com/biplovgautam/jawafai">Case study →</a>
       </td>
       <td width="33%">
@@ -52,9 +52,9 @@ Currently working on <b>RAG pipelines</b>, <b>vector databases</b>, and building
         <br/><a href="https://bilearnhub.biplovgautam.com.np">Live demo →</a>
       </td>
       <td width="33%">
-        <strong>Lanceraa</strong>
-        <br/>Full-stack freelancing marketplace (FastAPI + Next.js) shipping soon.
-        <br/><a href="https://lanceraa.biplovgautam.com.np">Preview →</a>
+        <strong>Laxmi Honey Industry</strong>
+        <br/>E-commerce webstore for honey products built with React + Vite + TailwindCSS.
+        <br/><a href="https://laxmibeekeeping.com.np">Visit site →</a>
       </td>
     </tr>
   </table>
@@ -64,7 +64,7 @@ Currently working on <b>RAG pipelines</b>, <b>vector databases</b>, and building
   ## 🧰 Toolbox
 
   <p align="center">
-    <img src="https://skillicons.dev/icons?i=python,typescript,nextjs,react,fastapi,nodejs,postgresql,mongodb,redis,aws,gcp" />
+    <img src="https://skillicons.dev/icons?i=python,typescript,nextjs,react,fastapi,nodejs,postgresql,mongodb,redis,azure,gcp" />
     <br/>
     <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,vercel,figma,git,linux" />
   </p>
