@@ -3,7 +3,6 @@
   <img src="https://readme-typing-svg.herokuapp.com?size=24&duration=4000&color=00A67E&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B%2C+I'm+Biplov+Gautam!;AI+%26+ML+Enthusiast+%7C+Full+Stack+Developer" alt="Typing Animation">
 </p>
 
-
 <p >
 It's me <a href ="https://www.linkedin.com/in/biplovgautam/" target="_blank">BIplov Gautam<a/> a <b>Computer Science student</b> deeply focused on <b>Artificial Intelligence</b>, <b>Machine Learning</b>, <b>Computer vision</b> and <b>Large Language Models (LLMs)</b>.  
 Currently working on <b>RAG pipelines</b>, <b>vector databases</b>, and building <b>AI-driven web apps</b> while sharpening software engineering & project management skills.
@@ -14,9 +13,6 @@ Currently working on <b>RAG pipelines</b>, <b>vector databases</b>, and building
 - **Ambition:** Design AI systems solving **real-world problems** (healthcare, finance, education).  
 - **Goal:** Build impactful **AI-powered products** with scalable architectures.  
 
-
-
-## 💻 Tech Stack
 
 <p >
   <!-- Hero -->
@@ -37,26 +33,11 @@ Currently working on <b>RAG pipelines</b>, <b>vector databases</b>, and building
 
   > “The true sign of intelligence is not knowledge but imagination.” — Albert Einstein
 
-  ---
 
-  ## ⚡️ Snapshot
 
-  | ⚙️ Stack Focus | 🌍 Base | 🎯 Mission | 📬 Collaborations |
-  | --- | --- | --- | --- |
-  | LLM copilots · Retrieval augmented generation · Evaluation tooling · Vector DBs | Kathmandu, Nepal (UTC+5:45) | Make AI copilots trustworthy, accessible, and delightful | AI infrastructure, automation, intelligent products |
 
-  ---
 
-  ## 🚀 Currently Shipping
-
-  - **JawafAI** · Android messaging copilot that mirrors your tone across inboxes.
-  - **BiLearnHub** · GenAI learning platform (AsianHack 2025) powered by Python + Pinecone.
-  - **Mindshipping Journal** · Public build-in-public log for experiments & research drops.
-  - **Copilot Evaluators** · Retrieval-aware metrics, guardrails, and workflow agents.
-
-  ---
-
-  ## 🧠 Highlight Projects
+  ## Highlight Projects
 
   <table>
     <tr>
