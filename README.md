@@ -76,9 +76,6 @@ Currently working on <b>RAG pipelines</b>, <b>vector databases</b>, and building
     <img src="https://img.shields.io/badge/Vector%20DBs-050505?style=for-the-badge&logo=databricks&logoColor=18cb96" />
   </p>
 
-  ---
-
-  ## 📊 Signal
 
   <p align="center">
     <img src="https://github-readme-streak-stats.herokuapp.com?user=biplovgautam&theme=highcontrast&background=050505&border=18cb96&ring=18cb96&fire=18cb96&currStreakLabel=ffffff" />
