@@ -17,8 +17,7 @@ Currently working on <b>RAG pipelines</b>, <b>vector databases</b>, and building
 <p >
   <!-- Hero -->
   <div align="center">
-    <img src="./public/biplov.jpeg" width="160" style="border-radius:50%;border:3px solid #18cb96;" alt="Biplov Gautam headshot" />
-    <h1 style="font-weight:600;margin-top:18px;">Biplov Gautam — AI/ML Engineer</h1>
+    <h1 style="font-weight:600;margin-top:18px;">AI/ML Engineer</h1>
     <p style="max-width:720px;">
       I build human-first AI copilots, retrieval layers, and full-stack experiences that make intelligent systems feel like collaborators (not tools).
     </p>
