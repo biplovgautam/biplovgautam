@@ -1,71 +1,29 @@
 <!-- Profile Banner / Typing Animation -->
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=24&duration=4000&color=00A67E&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B%2C+I'm+Biplov+Gautam!;AI+%26+ML+Enthusiast+%7C+Full+Stack+Developer" alt="Typing Animation">
-</p>
-
-<p >
-It's me <a href ="https://www.linkedin.com/in/biplovgautam/" target="_blank">BIplov Gautam<a/> a <b>Computer Science student</b> deeply focused on <b>Artificial Intelligence</b>, <b>Machine Learning</b>, <b>Computer vision</b> and <b>Large Language Models (LLMs)</b>.  
-Currently working on <b>RAG pipelines</b>, <b>vector databases</b>, and building <b>AI-driven web apps</b> while sharpening software engineering & project management skills.
-</p>
-
-- **Learning:** ML, DL, Neural Networks, PyTorch, TensorFlow, RAG Systems.  
-- **Focus:** LLMs, LangChain, Pinecone, embeddings, retrieval & chunking.  
-- **Ambition:** Design AI systems solving **real-world problems** (healthcare, finance, education).  
-- **Goal:** Build impactful **AI-powered products** with scalable architectures.  
-
+<!-- <p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=24&duration=4000&color=00A67E&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B%2C+I'm+Biplov+Gautam!" alt="Typing Animation">
+</p> -->
 
 <p >
   <!-- Hero -->
   <div align="center">
-    <h1 style="font-weight:600;margin-top:18px;">AI/ML Engineer</h1>
+    <h1 style="font-weight:600;margin-top:18px;">Biplov Gautam (AI Engineer)</h1>
     <p style="max-width:720px;">
-      I build human-first AI copilots, retrieval layers, and full-stack experiences that make intelligent systems feel like collaborators (not tools).
+      I build human-first AI systems, retrieval layers, and full-stack experiences that make intelligent systems feel like collaborators (not tools).
     </p>
-    <a href="mailto:contact@biplovgautam.com.np"><img src="https://img.shields.io/badge/Say%20Hello-18cb96?style=for-the-badge&logo=gmail&logoColor=050505" /></a>
-    <a href="https://www.linkedin.com/in/biplovgautam" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-    <a href="https://mindshipping.tech/biplovgautam" target="_blank"><img src="./public/mindshippinglogo.png" height="28" alt="Mindshipping" /></a>
-    <a href="https://madhavbiplov.medium.com" target="_blank"><img src="https://img.shields.io/badge/Medium-0a0a0a?style=for-the-badge&logo=medium&logoColor=18cb96" /></a>
-    <a href="https://biplovgautam.com.np" target="_blank"><img src="https://img.shields.io/badge/Portfolio-18cb96?style=for-the-badge&logo=firefox&logoColor=050505" /></a>
+    
   </div>
-
-  <br/>
 
   > “The true sign of intelligence is not knowledge but imagination.” — Albert Einstein
 
 
 
+<br>
 
-
-  ## Highlight Projects
-
-  <table>
-    <tr>
-      <td width="33%">
-        <strong>JawafAI</strong>
-        <br/>Context-aware Android messaging companion built with Kotlin, Firebase & Groq LLM.
-        <br/><a href="https://github.com/biplovgautam/jawafai">Case study →</a>
-      </td>
-      <td width="33%">
-        <strong>BiLearnHub</strong>
-        <br/>GenAI study space that pulls session-aware context from Pinecone for precise answers.
-        <br/><a href="https://bilearnhub.biplovgautam.com.np">Live demo →</a>
-      </td>
-      <td width="33%">
-        <strong>Laxmi Honey Industry</strong>
-        <br/>E-commerce webstore for honey products built with React + Vite + TailwindCSS.
-        <br/><a href="https://laxmibeekeeping.com.np">Visit site →</a>
-      </td>
-    </tr>
-  </table>
-
-  ---
-
-  ## 🧰 Toolbox
-
+  ## Skills & Projects
   <p align="center">
-    <img src="https://skillicons.dev/icons?i=python,typescript,nextjs,react,fastapi,nodejs,postgresql,mongodb,redis,azure,gcp" />
+    <img src="https://skillicons.dev/icons?i=python,fastapi,pytorch,sklearn,typescript,nextjs,postgresql,redis" />
     <br/>
-    <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,vercel,figma,git,linux" />
+    <img src="https://skillicons.dev/icons?i=bash,cloudflare,docker,git,github,linux,azure" />
   </p>
 
   <p align="center">
@@ -75,26 +33,41 @@ Currently working on <b>RAG pipelines</b>, <b>vector databases</b>, and building
     <img src="https://img.shields.io/badge/Vector%20DBs-050505?style=for-the-badge&logo=databricks&logoColor=18cb96" />
   </p>
 
+  <table>
+    <tr>
+      <td width="33%">
+        <strong>JawafAI</strong>
+        <br/>Unified Context-aware Android messaging companion built with Kotlin, Firebase & Groq LLM.
+        <br/><a href="https://github.com/biplovgautam/jawafai">Case study →</a>
+      </td>
+      <td width="33%">
+        <strong>BiLearnHub</strong>
+        <br/>GenAI study space that pulls session-aware context from VectorDB(Pinecone) for precise answers.
+        <br/><a href="https://bilearnhub.biplovgautam.com.np">Live demo →</a>
+      </td>
+      <td width="33%">
+        <strong>Laxmi Honey Industry</strong>
+        <br/>AI powered E-commerce webstore.
+        <br/><a href="https://laxmibeekeeping.com.np">Visit site →</a>
+      </td>
+    </tr>
+  </table>
 
-  <p align="center">
-    <img src="https://github-readme-streak-stats.herokuapp.com?user=biplovgautam&theme=highcontrast&background=050505&border=18cb96&ring=18cb96&fire=18cb96&currStreakLabel=ffffff" />
-    <br/>
-    <img src="https://github-readme-stats.vercel.app/api?username=biplovgautam&show_icons=true&theme=tokyonight&bg_color=050505&title_color=18cb96&icon_color=18cb96&hide_border=true" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=biplovgautam&layout=compact&theme=tokyonight&bg_color=050505&title_color=18cb96&hide_border=true" />
-  </p>
 
-  ---
 
-  ## � Writing & Mindshare
+  ## Writing & Mindshare
+  <div align="center">
+    <a href="mailto:contact@biplovgautam.com.np"><img src="https://img.shields.io/badge/Say%20Hello-18cb96?style=for-the-badge&logo=gmail&logoColor=050505" /></a>
+    <a href="https://www.linkedin.com/in/biplovgautam" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+    <a href="https://mindshipping.tech/biplovgautam" target="_blank"><img src="./public/mindshippinglogo.png" height="28" alt="Mindshipping" /></a>
+    <a href="https://madhavbiplov.medium.com" target="_blank"><img src="https://img.shields.io/badge/Medium-0a0a0a?style=for-the-badge&logo=medium&logoColor=18cb96" /></a>
+    <a href="https://biplovgautam.com.np" target="_blank"><img src="https://img.shields.io/badge/Portfolio-18cb96?style=for-the-badge&logo=firefox&logoColor=050505" /></a>
+  </div>
 
-  - **Mindshipping Log** — build-in-public notes, prototypes, and AI musings → [mindshipping.tech/biplovgautam](https://mindshipping.tech/biplovgautam)
-  - **Medium Essays** — practical AI/ML breakdowns & experiments → [madhavbiplov.medium.com](https://madhavbiplov.medium.com)
-  - **LinkedIn Drops** — updates on copilots, evaluators, and launches → [linkedin.com/in/biplovgautam](https://www.linkedin.com/in/biplovgautam)
 
-  ---
-
-  ## 🤝 Let’s Build Together
-
+  - **[Medium](https://madhavbiplov.medium.com) Essays** — practical AI/ML breakdowns & experiments 
+  - **[LinkedIn](https://www.linkedin.com/in/biplovgautam) Drops** — updates on copilots, evaluators, and launches 
+  
   If you’re exploring AI copilots, automation, or intelligent systems, I’d love to jam on ideas. Open to collaborations, mentorship chats, and cool shipping stories.
 
   <p align="center">
