@@ -6,7 +6,7 @@
 <p >
   <!-- Hero -->
   <div align="center">
-    <h1 style="font-weight:600;margin-top:18px;">Biplov Gautam (AI Engineer)</h1>
+    <h1 style="font-weight:600;margin-top:18px;">Biplov Gautam (Systems Design & AI Engineer)</h1>
     <p style="max-width:720px;">
       I build human-first AI systems, retrieval layers, and full-stack experiences that make intelligent systems feel like collaborators (not tools).
     </p>
@@ -59,7 +59,6 @@
   <div align="center">
     <a href="mailto:contact@biplovgautam.com.np"><img src="https://img.shields.io/badge/Say%20Hello-18cb96?style=for-the-badge&logo=gmail&logoColor=050505" /></a>
     <a href="https://www.linkedin.com/in/biplovgautam" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-    <a href="https://mindshipping.tech/biplovgautam" target="_blank"><img src="./public/mindshippinglogo.png" height="28" alt="Mindshipping" /></a>
     <a href="https://madhavbiplov.medium.com" target="_blank"><img src="https://img.shields.io/badge/Medium-0a0a0a?style=for-the-badge&logo=medium&logoColor=18cb96" /></a>
     <a href="https://biplovgautam.com.np" target="_blank"><img src="https://img.shields.io/badge/Portfolio-18cb96?style=for-the-badge&logo=firefox&logoColor=050505" /></a>
   </div>

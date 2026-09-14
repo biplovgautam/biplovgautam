@@ -1,274 +1,115 @@
 import Image from "next/image";
-
-const accent = "#18cb96";
-
-const highlights = [
-  {
-    title: "Applied AI",
-    detail: "LLM copilots, RAG pipelines, autonomous agents",
-  },
-  {
-    title: "ML Research",
-    detail: "Sentiment Analysis, Computer vision + multimodal experimentation",
-  },
-  {
-    title: "Full-stack Impact",
-    detail: "Next.js, FastAPI, vector databases, cloud shipping",
-  },
-];
-
-const socialLinks = [
-  {
-    label: "LinkedIn",
-    href: "https://www.linkedin.com/in/biplovgautam/",
-    description: "Let's connect",
-    icon: LinkedInIcon,
-  },
-  {
-    label: "GitHub",
-    href: "https://github.com/biplovgautam",
-    description: "Code, research, experiments",
-    icon: GitHubIcon,
-  },
-  {
-    label: "Medium",
-    href: "https://madhavbiplov.medium.com/",
-    description: "Writing about AI/ML",
-    icon: MediumIcon,
-  },
-  {
-    label: "Mindshipping",
-    href: "https://mindshipping.tech/biplovgautam",
-    description: "Mindshipping.tech profile",
-    icon: MindshippingIcon,
-  },
-];
+import Link from "next/link";
+import AnimatedHeadline from "./components/AnimatedHeadline";
+import Marquee from "./components/Marquee";
+import Reveal from "./components/Reveal";
+import SplitSection from "./components/SplitSection";
+import WorkCard from "./components/WorkCard";
+import { serviceIcons } from "./components/icons";
+import { site } from "./data/site";
 
 export default function Home() {
   return (
-    <div className="relative min-h-screen overflow-hidden bg-[#050505] px-4 py-8 text-white sm:px-8 sm:py-16 lg:px-12">
-      <div
-        className="pointer-events-none absolute inset-0 -z-10"
-        aria-hidden
-        style={{
-          background:
-            "radial-gradient(circle at 10% 20%, rgba(24,203,150,0.18), transparent 40%), radial-gradient(circle at 80% 0%, rgba(24,203,150,0.12), transparent 45%), radial-gradient(circle at 50% 80%, rgba(24,203,150,0.08), transparent 55%)",
-        }}
-      />
-
-      <main className="mx-auto flex w-full max-w-6xl flex-col gap-8 sm:gap-12 lg:flex-row lg:items-center lg:gap-16">
-        <section className="flex-1 space-y-6 sm:space-y-8 lg:space-y-10">
-          <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-xs sm:gap-3 sm:px-5 sm:text-sm text-white/80">
-            <span
-              className="h-2 w-2 sm:h-2.5 sm:w-2.5 rounded-full"
-              style={{ backgroundColor: accent }}
+    <>
+      {/* Hero */}
+      <section className="px-4 pt-4 pb-2">
+        <div className="mx-auto grid max-w-[1440px] grid-cols-1 items-stretch gap-x-1 gap-y-6 md:grid-cols-2">
+          <div className="flex flex-col justify-end gap-6 py-4 md:h-full md:gap-10 md:py-16">
+            <AnimatedHeadline
+              segments={site.headline}
+              className="text-[clamp(2.25rem,4.2vw+0.3rem,4rem)] leading-[0.95] tracking-[-0.04em] md:max-w-[640px]"
             />
-            <p className="tracking-tight">AI/ML student crafting human-centric products</p>
+            <p className="max-w-[520px] text-base leading-relaxed text-ink-2 md:text-lg">{site.intro}</p>
           </div>
-
-          <div className="space-y-4 sm:space-y-6">
-            <div className="space-y-2 sm:space-y-3">
-              <p className="text-xs sm:text-sm uppercase tracking-[0.3em] text-white/60">
-                Biplov Gautam
-              </p>
-              <h1 className="text-3xl font-semibold leading-tight text-white sm:text-5xl lg:text-6xl">
-                AI systems that feels like friends—not tools.
-              </h1>
-            </div>
-            <p className="max-w-2xl text-base leading-relaxed text-white/70 sm:text-lg">
-              Hi, I&apos;m Biplov Gautam, an AI Engineer passionate about creating systems that
-              understand context, not just process data. I specialize in Generative AI,
-              vector databases, and large language models, focusing on making AI more
-              intuitive and human-like.
-            </p>
-            <p className="max-w-2xl text-base leading-relaxed text-white/70 sm:text-lg">
-              I&apos;m currently exploring ways to build affordable, context-aware AI systems
-              that feel like true collaborators. If you&apos;re working on innovative AI or
-              automation projects, let&apos;s connect and exchange ideas!
-            </p>
-            <blockquote className="text-sm italic text-white/60 sm:text-base">
-              &ldquo;The true sign of intelligence is not knowledge but imagination.&rdquo; — Albert Einstein
-            </blockquote>
+          <div className="relative aspect-[4/5] overflow-hidden rounded-lg bg-surface md:aspect-auto md:min-h-[640px] lg:min-h-[720px]">
+            <Image
+              src="/biplov.jpeg"
+              alt={`Portrait of ${site.name}`}
+              fill
+              priority
+              sizes="(min-width: 768px) 720px, 100vw"
+              className="mono object-cover object-[45%_30%]"
+            />
           </div>
+        </div>
+      </section>
 
-          <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-4">
-            <a
-              href="mailto:contact@biplovgautam.com.np"
-              className="inline-flex items-center justify-center gap-3 rounded-full px-8 py-3 text-base font-medium text-black transition hover:translate-y-0.5"
-              style={{ backgroundColor: accent }}
-            >
-              Say hello
-              <ArrowIcon />
-            </a>
-            <a
-              href="https://mindshipping.tech/biplovgautam"
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center justify-center gap-3 rounded-full border border-white/15 px-6 py-3 text-base text-white/80 transition hover:border-white/30 hover:text-white"
-            >
-              <Image
-                src="/mindshippinglogo.png"
-                alt="Mindshipping logo"
-                width={22}
-                height={22}
-                className="rounded-full"
-              />
-              Mindshipping journal
-              <ArrowIcon />
-            </a>
-          </div>
+      {/* Info */}
+      <SplitSection label="Info">
+        <Reveal>
+          <p className="text-base leading-relaxed text-ink-2 md:text-lg">{site.infoShort}</p>
+          <Link
+            href="/about"
+            className="mt-4 inline-block text-base text-ink-3 underline underline-offset-4 transition-colors hover:text-ink"
+          >
+            Discover more
+          </Link>
+        </Reveal>
+      </SplitSection>
 
-          <div className="grid gap-3 sm:grid-cols-3 sm:gap-4">
-            {highlights.map((item) => (
-              <div
-                key={item.title}
-                className="rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur sm:p-5"
-              >
-                <p className="text-xs uppercase tracking-[0.28em] text-white/50 sm:text-sm">
-                  {item.title}
-                </p>
-                <p className="mt-2 text-sm text-white/80 sm:mt-3 sm:text-base">{item.detail}</p>
-              </div>
-            ))}
-          </div>
-
-        </section>
-
-        <section className="flex-1">
-          <div className="relative flex w-full flex-col gap-4 sm:gap-6">
-            <div className="relative overflow-hidden rounded-[32px] border border-white/10 bg-gradient-to-b from-white/10 to-white/0 p-3 shadow-[0_20px_80px_rgba(0,0,0,0.45)] sm:rounded-[40px] sm:p-4">
-              <div className="rounded-[24px] border border-white/10 bg-black/60 p-3 sm:rounded-[32px] sm:p-4">
-                <div className="relative h-[420px] overflow-hidden rounded-[20px] border border-white/5 bg-black sm:h-[520px] sm:rounded-[28px]">
-                  <Image
-                    src="/biplov.jpeg"
-                    alt="Biplov Gautam headshot"
-                    fill
-                    sizes="(min-width: 1024px) 480px, 90vw"
-                    className="object-cover"
-                    priority
-                  />
-                  <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
-                </div>
-                <div className="-mt-12 flex flex-col gap-3 rounded-3xl border border-white/10 bg-black/80 px-4 py-4 backdrop-blur sm:-mt-14 sm:gap-4 sm:px-6 sm:py-5">
-                  <div className="flex items-start justify-between gap-3 sm:gap-4">
-                    <div>
-                      <p className="text-xs uppercase tracking-[0.3em] text-white/50 sm:text-sm">
-                        Currently
-                      </p>
-                      <p className="text-base font-semibold text-white sm:text-lg">
-                        Building AI copilots & evaluators
-                      </p>
-                      <p className="text-xs text-white/60 sm:text-sm">
-                        FastAPI · Pinecone · LangChain · n8n
-                      </p>
+      {/* What I do */}
+      <section className="border-t border-line px-4 py-16 md:py-24">
+        <div className="mx-auto max-w-[1440px]">
+          <p className="mb-6 text-lg leading-9 tracking-[-0.02em] text-ink md:mb-8">What I do</p>
+          <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-4">
+            {site.services.map((service, i) => {
+              const Icon = serviceIcons[service.icon];
+              return (
+                <Reveal key={service.number} delay={i * 80} className="flex">
+                  <article className="flex w-full flex-col justify-between gap-24 rounded-lg border border-line-2 p-6">
+                    <div className="flex flex-col">
+                      <p className="font-mono text-xs text-ink-3">{service.number}</p>
+                      <Icon className="mt-6 h-20 w-20 text-ink" />
                     </div>
-                    <span
-                      className="whitespace-nowrap rounded-full px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider sm:px-3 sm:text-xs"
-                      style={{ backgroundColor: `${accent}1a`, color: accent }}
-                    >
-                      Shipping
-                    </span>
-                  </div>
-                  <p className="text-xs text-white/60 sm:text-sm">
-                    Designing trustworthy copilots that understand your workflow,
-                    evaluate outputs, and self-improve through retrieval feedback.
-                  </p>
-                </div>
-              </div>
-            </div>
+                    <div className="flex flex-col">
+                      <h2 className="text-xl font-medium text-ink">{service.title}</h2>
+                      <p className="mt-2 mb-4 text-sm font-medium text-ink">{service.tagline}</p>
+                      <p className="text-sm leading-relaxed text-ink-3">{service.description}</p>
+                    </div>
+                  </article>
+                </Reveal>
+              );
+            })}
+          </div>
+        </div>
+      </section>
 
-            <div className="flex flex-wrap items-center justify-center gap-2 rounded-[28px] border border-white/10 bg-white/5 px-3 py-3 backdrop-blur sm:gap-3 sm:rounded-[36px] sm:px-4 sm:py-4">
-              {socialLinks.map(({ label, href, icon: Icon }) => (
-                <a
-                  key={label}
-                  href={href}
-                  target={href.startsWith("http") ? "_blank" : undefined}
-                  rel={href.startsWith("http") ? "noreferrer" : undefined}
-                  className="group relative flex items-center gap-2 rounded-full border border-white/0 bg-white/0 px-1.5 py-1 text-white transition-all duration-300 hover:border-white/15 sm:gap-3 sm:px-2"
-                  aria-label={label}
-                >
-                  <span className="relative flex h-11 w-11 items-center justify-center rounded-full border border-white/15 bg-black/70 shadow-[0_10px_30px_rgba(0,0,0,0.45)] sm:h-12 sm:w-12">
-                    <Icon />
-                  </span>
-                  <span className="max-w-0 overflow-hidden whitespace-nowrap text-sm text-white/70 opacity-0 transition-all duration-300 group-hover:max-w-[200px] group-hover:opacity-100">
-                    {label}
-                  </span>
-                </a>
-              ))}
+      {/* Work */}
+      <section className="border-t border-line px-4 py-16 md:py-24">
+        <Reveal className="mx-auto max-w-[1440px]">
+          <div className="mb-6 grid grid-cols-1 gap-x-1 gap-y-4 md:mb-8 md:grid-cols-2">
+            <p className="text-lg leading-9 tracking-[-0.02em] text-ink md:sticky md:top-24 md:self-start">Work</p>
+            <div>
+              <p className="text-sm leading-relaxed text-ink-2 md:text-base">
+                A selection of products across AI systems, e-commerce and open learning — built end-to-end with
+                teams that care about how things work.
+              </p>
+              <Link
+                href="/work"
+                className="mt-4 inline-block text-sm text-ink-3 underline underline-offset-4 transition-colors hover:text-ink"
+              >
+                View all
+              </Link>
             </div>
           </div>
-        </section>
-      </main>
-    </div>
-  );
-}
+          <div className="grid grid-cols-1 gap-x-2 gap-y-6 md:grid-cols-3">
+            {site.work
+              .filter((item) => item.image)
+              .slice(0, 3)
+              .map((item) => (
+                <WorkCard key={item.slug} item={item} />
+              ))}
+          </div>
+        </Reveal>
+      </section>
 
-function ArrowIcon({ className }: { className?: string }) {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="1.8"
-      className={className ?? "h-4 w-4"}
-    >
-      <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M9 6h9v9" />
-    </svg>
-  );
-}
-
-function LinkedInIcon() {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className="h-5 w-5"
-    >
-      <path d="M4.98 3.5a2 2 0 1 1 0 4 2 2 0 0 1 0-4ZM3 8.75h3.96v11.5H3zm6.74 0H13.5v1.7h.05c.63-1.2 2.17-2.47 4.47-2.47 4.78 0 5.67 3.14 5.67 7.23v6.04h-3.95v-5.35c0-1.28-.02-2.93-1.78-2.93-1.78 0-2.05 1.39-2.05 2.83v5.45H11.7Z" />
-    </svg>
-  );
-}
-
-function GitHubIcon() {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className="h-5 w-5"
-    >
-      <path
-        fillRule="evenodd"
-        d="M12 .5C5.648.5.5 5.648.5 12c0 5.08 3.292 9.388 7.868 10.915.576.108.787-.25.787-.556 0-.274-.01-1.17-.017-2.124-3.2.695-3.877-1.364-3.877-1.364-.525-1.336-1.282-1.693-1.282-1.693-1.048-.717.08-.703.08-.703 1.16.082 1.77 1.192 1.77 1.192 1.03 1.767 2.703 1.257 3.362.961.103-.746.403-1.257.732-1.545-2.553-.29-5.237-1.277-5.237-5.683 0-1.255.448-2.282 1.183-3.086-.118-.29-.512-1.458.112-3.04 0 0 .964-.309 3.16 1.178a10.88 10.88 0 0 1 5.754 0c2.195-1.487 3.158-1.178 3.158-1.178.625 1.582.232 2.75.114 3.04.737.804 1.182 1.83 1.182 3.085 0 4.417-2.688 5.39-5.253 5.675.414.353.783 1.043.783 2.101 0 1.516-.014 2.738-.014 3.11 0 .309.209.67.793.555C20.71 21.383 24 17.079 24 12 24 5.648 18.852.5 12 .5Z"
-        clipRule="evenodd"
-      />
-    </svg>
-  );
-}
-
-function MediumIcon() {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 1043.63 592.71"
-      fill="currentColor"
-      className="h-5 w-5"
-    >
-      <path d="M588.67 296.35c0 163.66-131.5 296.35-293.9 296.35S0 460 0 296.35 131.5 0 294.77 0s293.9 132.69 293.9 296.35m307.42 0c0 155.89-65.74 282.56-146.85 282.56s-146.85-126.67-146.85-282.56 65.74-282.56 146.85-282.56 146.85 126.67 146.85 282.56m147.54 0c0 144.72-23.41 262.14-52.31 262.14s-52.31-117.42-52.31-262.14 23.41-262.14 52.31-262.14 52.31 117.42 52.31 262.14" />
-    </svg>
-  );
-}
-
-function MindshippingIcon() {
-  return (
-    <Image
-      src="/mindshippinglogo.png"
-      alt="Mindshipping logo"
-      width={20}
-      height={20}
-      className="rounded-full"
-    />
+      {/* Stack */}
+      <section className="overflow-hidden border-t border-line py-16 md:py-24">
+        <div className="px-4">
+          <p className="mx-auto mb-8 max-w-[1440px] text-lg leading-9 tracking-[-0.02em] text-ink md:mb-10">Stack</p>
+        </div>
+        <Marquee items={site.stack} />
+      </section>
+    </>
   );
 }

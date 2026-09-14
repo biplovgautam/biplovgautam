@@ -1,30 +1,376 @@
 @import "tailwindcss";
 
-:root {
-  --background: #050505;
-  --foreground: #f4f4f5;
-  --accent: #18cb96;
+@theme inline {
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-mute: var(--mute);
+  --color-line: var(--line);
+  --color-line-2: var(--line-2);
+  --color-surface: var(--surface);
 }
 
-* {
-  box-sizing: border-box;
+/*
+  Monochrome theme tokens.
+  Light is the default. Dark is opt-in: the header toggle sets
+  data-theme="dark" on <html> and the choice is restored from
+  localStorage before first paint (see layout.tsx).
+*/
+:root {
+  color-scheme: light;
+  --paper: #ffffff;
+  --ink: #111111;
+  --ink-2: #6b6b6b;
+  --ink-3: #9a9a9a;
+  --mute: #b2b2b2;
+  --line: #efefef;
+  --line-2: #e3e3e3;
+  --surface: #f4f4f4;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --paper: #0a0a0a;
+  --ink: #f2f2f2;
+  --ink-2: #a3a3a3;
+  --ink-3: #6f6f6f;
+  --mute: #5a5a5a;
+  --line: #1c1c1c;
+  --line-2: #2a2a2a;
+  --surface: #141414;
+}
+
+/* Theme toggle icons: sun shows in dark mode (to go light), moon in light mode. */
+.theme-toggle .icon-sun {
+  display: none;
+}
+:root[data-theme="dark"] .theme-toggle .icon-sun {
+  display: block;
+}
+:root[data-theme="dark"] .theme-toggle .icon-moon {
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  margin: 0;
-  min-height: 100vh;
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-geist-sans), "Inter", "Space Grotesk", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  line-height: 1.5;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
+  background: var(--paper);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 ::selection {
-  background: color-mix(in srgb, var(--accent) 60%, transparent);
-  color: #050505;
+  background: var(--ink);
+  color: var(--paper);
+}
+
+:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* Black-and-white portrait treatment */
+.mono {
+  filter: grayscale(1) contrast(1.04);
+}
+
+/* ------------------------------------------------------------------ */
+/* Custom cursor: a dot that tracks the pointer and a soft trailing    */
+/* circle. The layer uses exclusion blending, so it inverts whatever   */
+/* is underneath — black on white, white on black, negative on images. */
+/* Only enabled for fine pointers (mouse / trackpad).                  */
+/* ------------------------------------------------------------------ */
+@media (pointer: fine) {
+  html.has-cursor,
+  html.has-cursor a,
+  html.has-cursor button,
+  html.has-cursor [role="button"] {
+    cursor: none;
+  }
+}
+
+.cursor-layer {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none;
+  mix-blend-mode: exclusion;
+}
+
+.cursor-dot,
+.cursor-ring {
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-radius: 9999px;
+  background: #fff;
+  opacity: 0;
+  will-change: transform;
+  transition:
+    opacity 0.3s ease,
+    width 0.25s ease,
+    height 0.25s ease;
+}
+
+.cursor-dot {
+  width: 16px;
+  height: 16px;
+}
+
+.cursor-ring {
+  width: 40px;
+  height: 40px;
+}
+
+.cursor-layer.is-visible .cursor-dot {
+  opacity: 1;
+}
+
+.cursor-layer.is-visible .cursor-ring {
+  opacity: 0.25;
+}
+
+.cursor-layer.is-hover .cursor-dot {
+  width: 28px;
+  height: 28px;
+}
+
+.cursor-layer.is-view .cursor-dot {
+  width: 64px;
+  height: 64px;
+}
+
+.cursor-layer.is-view .cursor-ring {
+  opacity: 0;
+}
+
+.cursor-layer.is-down .cursor-dot {
+  width: 12px;
+  height: 12px;
+}
+
+/* ------------------------------------------------------------------ */
+/* Motion                                                              */
+/* ------------------------------------------------------------------ */
+@keyframes letter-in {
+  from {
+    opacity: 0;
+    transform: translateY(0.45em);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.letter {
+  display: inline-block;
+  opacity: 0;
+  animation: letter-in 0.7s cubic-bezier(0.2, 0.65, 0.2, 1) forwards;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition:
+    opacity 0.7s ease,
+    transform 0.7s cubic-bezier(0.2, 0.65, 0.2, 1);
+}
+
+.reveal.is-in {
+  opacity: 1;
+  transform: none;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-track {
+  animation: marquee 45s linear infinite;
+}
+
+.marquee-mask {
+  mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
+}
+
+/* ------------------------------------------------------------------ */
+/* "What I do" icon loops                                              */
+/* ------------------------------------------------------------------ */
+.ico-ring,
+.ico-cube-outer,
+.ico-cube-inner {
+  transform-box: view-box;
+  transform-origin: 50% 50%;
+}
+
+@keyframes ico-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.12);
+    opacity: 0.35;
+  }
+}
+
+.ico-ring {
+  animation: ico-pulse 3.6s ease-in-out infinite;
+}
+
+@keyframes ico-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes ico-spin-back {
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.ico-cube-outer {
+  animation: ico-spin-back 36s linear infinite;
+}
+
+.ico-cube-inner {
+  animation: ico-spin 18s linear infinite;
+}
+
+@keyframes ico-slide-left {
+  0%,
+  38% {
+    transform: translateX(0);
+  }
+  50%,
+  88% {
+    transform: translateX(-33px);
+  }
+  100% {
+    transform: translateX(-66px);
+  }
+}
+
+@keyframes ico-slide-right {
+  0%,
+  38% {
+    transform: translateX(-66px);
+  }
+  50%,
+  88% {
+    transform: translateX(-33px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.ico-row {
+  animation-duration: 8s;
+  animation-timing-function: cubic-bezier(0.65, 0, 0.35, 1);
+  animation-iteration-count: infinite;
+}
+
+.ico-row-a {
+  animation-name: ico-slide-left;
+}
+
+.ico-row-b {
+  animation-name: ico-slide-right;
+  animation-delay: -1.3s;
+}
+
+.ico-row-c {
+  animation-name: ico-slide-left;
+  animation-delay: -2.6s;
+}
+
+@keyframes ico-draw {
+  0% {
+    stroke-dashoffset: 80;
+  }
+  35%,
+  70% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: -80;
+  }
+}
+
+@keyframes ico-depth {
+  0%,
+  30% {
+    opacity: 0;
+  }
+  45%,
+  70% {
+    opacity: 1;
+  }
+  85%,
+  100% {
+    opacity: 0;
+  }
+}
+
+.ico-check {
+  stroke-dasharray: 80;
+  stroke-dashoffset: 80;
+  animation: ico-draw 6s ease-in-out infinite;
+}
+
+.ico-check-back {
+  animation-delay: 0.35s;
+}
+
+.ico-check-depth {
+  opacity: 0;
+  animation: ico-depth 6s ease-in-out infinite;
+  animation-delay: 0.35s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .letter {
+    animation: none;
+    opacity: 1;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .marquee-track {
+    animation: none;
+  }
+  .ico-ring,
+  .ico-cube-outer,
+  .ico-cube-inner,
+  .ico-row,
+  .ico-check,
+  .ico-check-depth {
+    animation: none;
+    opacity: 1;
+    stroke-dashoffset: 0;
+    transform: none;
+  }
 }
